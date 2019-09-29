@@ -1,0 +1,29 @@
+@import 'header';
+@import'footer';
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.Boxs-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Box{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:100px;
+  height:100px;
+  background:purple;
+  color:white;
+  margin:10px;
+  border:3px solid black;
+}
+.orange{
+  background-color:orange;
+}
+.red{
+  background-color:red; 
+}
