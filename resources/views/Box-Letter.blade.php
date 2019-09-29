@@ -1,5 +1,9 @@
 @extends('layout.My_Layout')
+@section('color-header')
 
+class={{$color}}
+
+@endsection
 @section('content')
 
 
@@ -10,5 +14,10 @@
   @endforeach
 
 
+
+@endsection
+@section('color-footer')
+
+class={{$color}}
 
 @endsection
